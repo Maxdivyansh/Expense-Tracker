@@ -1,5 +1,4 @@
-
-# Medium Simple Expense Tracker
+
 
 expenses = []   # list to store expenses (name, amount)
 
