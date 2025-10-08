@@ -1,5 +1,4 @@
 
-
 expenses = []   # list to store expenses (name, amount)
 
 # Function to add expense
@@ -7,7 +6,7 @@ def add_expense():
     name = input("Enter expense name: ")
     amount = float(input("Enter amount: "))
     expenses.append((name, amount))
-    print("✅ Expense added!")
+    print(" Expense added!")
 
 # Function to view all expenses
 def view_expenses():
@@ -35,7 +34,7 @@ while True:
     elif choice == "2":
         view_expenses()
     elif choice == "3":
-        print("Goodbye! 👋")
+        print("Goodbye! ")
         break
     else:
         print("Invalid choice, try again.")
